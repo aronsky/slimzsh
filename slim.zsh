@@ -21,6 +21,7 @@ source $slim_path/correction.zsh
 source $slim_path/stack.zsh
 source $slim_path/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 source $slim_path/termsupport.zsh
+source $slim_path/virtualenv-auto-activate.zsh
 
 if command -v fasd >/dev/null 2>&1; then
   eval "$(fasd --init zsh-hook zsh-ccomp zsh-ccomp-install zsh-wcomp zsh-wcomp-install posix-alias)"
